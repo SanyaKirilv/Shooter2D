@@ -1,6 +1,13 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": ["com.openupm", "com.cysharp.unitask", "extensions.unity.imageloader"]
+    }],
   "dependencies": {
     "com.unity.collab-proxy": "2.9.3",
+    "com.unity.extensions": "file:/Users/sanyakirillv/LocalData/Github/Shooter2D/com.unity.extensions",
     "com.unity.feature.development": "1.0.2",
     "com.unity.inputsystem": "1.14.0",
     "com.unity.multiplayer.center": "1.0.0",
@@ -38,6 +45,11 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
+    "com.unity.modules.xr": "1.0.0",
+    "com.unity.2d.sprite": "1.0.0",
+    "com.cysharp.unitask": "2.5.10",
+    "extensions.unity.imageloader": "7.0.1",
+    "jillejr.newtonsoft.json-for-unity": "https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm",
+    "com.nobi.roundedcorners": "https://github.com/kirevdokimov/Unity-UI-Rounded-Corners.git"
   }
 }

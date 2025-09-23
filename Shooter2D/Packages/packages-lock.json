@@ -1,5 +1,25 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "2.5.10",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.nobi.roundedcorners": {
+      "version": "https://github.com/kirevdokimov/Unity-UI-Rounded-Corners.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "33135342e868201eb0d4cef821ecab90caca373e"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "2.9.3",
       "depth": 0,
@@ -18,6 +38,12 @@
       "version": "2.0.5",
       "depth": 2,
       "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.extensions": {
+      "version": "file:/Users/sanyakirillv/LocalData/Github/Shooter2D/com.unity.extensions",
+      "depth": 0,
+      "source": "local",
       "dependencies": {}
     },
     "com.unity.feature.development": {
@@ -132,6 +158,23 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "extensions.unity.imageloader": {
+      "version": "7.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.cysharp.unitask": "2.5.10"
+      },
+      "url": "https://package.openupm.com"
+    },
+    "jillejr.newtonsoft.json-for-unity": {
+      "version": "https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f2c6cb09817832dccd0600f291053d8d55298ee9"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
