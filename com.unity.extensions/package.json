@@ -1,0 +1,36 @@
+{
+  "name": "com.unity.extensions",
+  "displayName": "Unity Extensions",
+  "description": "Simple package with UI components and Utilities for work with Memory, Network, Textures",
+  "version": "1.0.1",
+  "author": {
+    "name": "Alexander Kirillov",
+    "email": "sanya_kirilv@vk.com"
+  },
+  "license": "MIT",
+  "unity": "2019.4",
+  "scopedRegistries": [],
+  "samples": [
+    {
+      "displayName": "UI Resources",
+      "description": "Simple UI resources with extensions of standart Unity UI components.",
+      "path": "Samples~/UI Resources"
+    },
+    {
+      "displayName": "Serialized Dictionary",
+      "description": "Dictionary with serialization, for displays values in inspector.",
+      "path": "Samples~/Serialized Dictionary"
+    },
+    {
+      "displayName": "Foldout Attribute",
+      "description": "Attribute for fold / unfold variables by groups.",
+      "path": "Samples~/Foldout Attribute"
+    },
+    {
+      "displayName": "Better Hierarchy",
+      "description": "Editor sctipts for displays addiction information of hierarchy objects.",
+      "path": "Samples~/Better Hierarchy"
+    }
+  ],
+  "hideInEditor": false
+}
