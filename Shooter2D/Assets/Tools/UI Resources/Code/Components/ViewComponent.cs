@@ -55,7 +55,7 @@ namespace UnityExtensions.UI
         /// </summary>
         public virtual void Show()
         {
-            ToggleView(true);
+            IsVisible = true;
         }
 
         /// <summary>
@@ -63,7 +63,7 @@ namespace UnityExtensions.UI
         /// </summary>
         public virtual void Hide()
         {
-            ToggleView(false);
+            IsVisible = false;
         }
 
         #endregion
@@ -160,7 +160,7 @@ namespace UnityExtensions.UI
         /// </summary>
         public virtual void Show()
         {
-            ToggleView(true);
+            IsVisible = true;
         }
 
         /// <summary>
@@ -168,7 +168,7 @@ namespace UnityExtensions.UI
         /// </summary>
         public virtual void Hide()
         {
-            ToggleView(false);
+            IsVisible = false;
         }
 
         #endregion
