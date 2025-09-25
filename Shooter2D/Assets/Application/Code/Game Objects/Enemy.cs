@@ -35,6 +35,7 @@ public class Enemy : SpaceObject
         if (other.gameObject.CompareTag("Player Laser"))
         {
             TakeDamage();
+            Destroy(other.gameObject);
         }
         else if (other.gameObject.CompareTag("Dead Zone"))
         {
